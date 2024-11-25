@@ -1,0 +1,37 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: solid;
+    border-color: rgb(213, 212, 212);
+
+} 
+.navdiv{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+.logodiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.searchdiv{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+input{
+    height: 40px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
